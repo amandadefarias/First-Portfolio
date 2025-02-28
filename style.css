@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    a{
+        text-decoration: none;
+        color: #e2e8f0;
+    }
 }
 
 html{
@@ -35,7 +39,7 @@ body{
 .menu{
     display: flex;
     list-style: none;
-    gap: 3rem;
+    gap: 2.5rem;
     justify-content: center;
 }
 
@@ -80,10 +84,11 @@ body{
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--primaria);
     font-weight: bold;
     margin: 20px;
+    text-align: center;
 }
 
 .cabecalho-subtitulo{
